@@ -1,0 +1,50 @@
+input[type=text], input[type=password] {
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   text-align: center;
+   vertical-align: middle;
+   border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 10px; 
+ }
+ button {
+   background-color: #04aa36;
+   color: white;
+   padding: 14px 20px;
+   margin: 5px 0;
+   border: none;
+   cursor: pointer;
+   width: 15%;
+ }
+ .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+body, html {
+  height: 100%;
+}
+
+img {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  position:sticky ;
+  top: 20;
+  
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
